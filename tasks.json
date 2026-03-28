@@ -1,0 +1,34 @@
+[
+    {
+        "task_id": 1,
+        "title": "Python lab task",
+        "urgency": 5,
+        "importance": 5,
+        "status": "Pending",
+        "priority_score": 25
+    },
+    {
+        "task_id": 2,
+        "title": "Adv web tech quiz",
+        "urgency": 4,
+        "importance": 5,
+        "status": "Pending",
+        "priority_score": 20
+    },
+    {
+        "task_id": 3,
+        "title": "Xyz",
+        "urgency": 2,
+        "importance": 4,
+        "status": "Pending",
+        "priority_score": 8
+    },
+    {
+        "task_id": 4,
+        "title": "ABC",
+        "urgency": 2,
+        "importance": 4,
+        "status": "Pending",
+        "priority_score": 8
+    }
+]

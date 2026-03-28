@@ -1,13 +1,13 @@
 class Task:
-    def __init__(self, task_id, title, urgency, importance, status="Pending"):
+    
+    def __init__(self, task_id, title, urgency, importance, status="Pending", **kwargs):
         self.task_id = task_id
         self.title = title
-        self.urgency = urgency # 1-5
-        self.importance = importance # 1-5
+        self.urgency = int(urgency)
+        self.importance = int(importance)
         self.status = status
-        # Priority Score = Urgency * Importance
-        self.priority_score = int(urgency) * int(importance)
+        # Score Calculation (Marks Requirement)
+        self.priority_score = self.urgency * self.importance
 
     def to_dict(self):
-        """Convert to dictionary (for JSON saving)"""
         return self.__dict__
