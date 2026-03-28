@@ -19,7 +19,7 @@ Focus-Flow is a Python-based CLI application designed to help users manage and p
 
 1. Clone the repository:
    git clone https://github.com/jahidunfarabi/FocusFlow-Python-Project.git
-   cd focus-flow
+   cd FocusFlow_Project
 
 2. Create and activate a virtual environment:
    python -m venv .venv
